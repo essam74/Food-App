@@ -6,3 +6,37 @@
 .bg-overlay{
     background: linear-gradient(rgba(47,140,96,0.4), rgba(0,0,0,0.7))
 }
+.notFound{
+    background-image: url('./assets/images/Vector.png');
+    background-position:right;
+    background-size:auto;
+    background-repeat: no-repeat;
+    
+}
+.notfound-content{
+    /* position-absolute top-50 start-20 translate-middle */
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.notfound-img{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.notfound-content h2{
+    font-weight: 700;
+}
+.notfound-content h3{
+    font-weight: 400;
+}
+
+.back{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.3px;
+    margin-left: 10px;
+}
